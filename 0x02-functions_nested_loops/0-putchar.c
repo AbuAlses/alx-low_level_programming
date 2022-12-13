@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
+ * main - Entry point
  *
- * main -cheak code
- *
- * return: always 0 ;
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
