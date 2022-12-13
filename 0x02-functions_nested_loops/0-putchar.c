@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  *
  * main -cheak code
@@ -7,7 +7,14 @@
  */
 int main(void)
 {
-_putchar('_');
-_putchar('p')
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return 0;
 }
