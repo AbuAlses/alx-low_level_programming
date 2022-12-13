@@ -1,3 +1,4 @@
+#include<stdio.h>
 /**
  * print_sign - Check sing
  * @n: An input number
