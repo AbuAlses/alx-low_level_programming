@@ -26,3 +26,8 @@ putchar('-');
 }
 return (value);
 }
+int main(void)
+{
+ print_sign(12);
+return 0;
+}
