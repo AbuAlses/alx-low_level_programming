@@ -6,7 +6,7 @@
  * Description: Function that adds two integers and returns the result
  * Return: Result to add a and b
  */
-nt add(int a, int b)
+int add(int a, int b)
 {
 int result = a + b;
 return (result);
