@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * print_last_digit - Check Holberton
  * @r: An integer input
@@ -12,6 +12,6 @@ if (r < 0)
 n = -1 * (r % 10);
 else
 n = r % 10;
-putchar((n % 10) + '0');
+_putchar((n % 10) + '0');
 return (n % 10);
 }
