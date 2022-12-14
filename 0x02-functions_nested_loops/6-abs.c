@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- *_abs - Check code alx
+ *_abs - Check Holberton
  * @r: An integre input
  * Description: This function returns absolute value of a number
  * Return: Absolut value of number r
  */
-int _abs(int n)
+int _abs(int r)
 {
-if (n >= 0)
-{
-return (n);
-}
+if (r >= 0)
+return (r);
 else
-return (n*-1 )
-
+return (r * -1);
 }
