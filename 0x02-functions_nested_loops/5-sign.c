@@ -13,16 +13,19 @@ if (n > 0)
 {
 value = 1;
 putchar('+');
+putchar('\n');
 }
 else if (n == 0)
 {
 value = 0;
 putchar('0');
+putchar('\n');
 }
 else
 {
 value = -1;
 putchar('-');
+putchar('\n');
 }
 return (value);
 }
