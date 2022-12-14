@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * print_sign - Check sing
  * @n: An input number
@@ -12,20 +12,20 @@ int value;
 if (n > 0)
 {
 value = 1;
-putchar('+');
-putchar('\n');
+_putchar('+');
+_putchar('\n');
 }
 else if (n == 0)
 {
 value = 0;
-putchar('0');
-putchar('\n');
+_putchar('0');
+_putchar('\n');
 }
 else
 {
 value = -1;
-putchar('-');
-putchar('\n');
+_putchar('-');
+_putchar('\n');
 }
 return (value);
 }
